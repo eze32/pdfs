@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear PDF</title>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/html2pdf.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> 
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+    <div class="p-3 mb-2 bg-primary text-white">
+        <h2 class="text-center"> Crear PDF </h2>                
+    </div>  
+    <div class="container-fluid"> 
+        <form id="formPdf">
+            <div class="form-group">
+                <label class="label" for="logo">Logo</label>
+                <input type="file" class="form-control-file" id="flLogo">
+                <img width="200" height="200" class="img-thumbnail" id="imgPrev">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
